@@ -1,0 +1,68 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Red+Hat+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Andrea Manzi Trec Unipd Thesis</title>
+  </head>
+  <body>
+    
+    <!-- Overlay -->
+    <section id="overlay"></section>
+    <header class="container">
+      <div class="wrapper">
+       <nav class="navbar">
+         <!-- logo -->
+         <div class="navbar__logo"> 
+           <a href="index.html">
+            <img src="./img/unipdlogo.jpg" alt="logo" /> 
+          </a>
+             
+       </div>
+       <ul class="navbar__links">
+        <li class="navbar__link"><a href="presentazione.html">presentazione</a></li>
+        <li class="navbar__link"><a href="tesi.html">tesi</a></li>
+        <a href="modello.html"><button class="navbar__btn">prova il modello</button></a>
+      </ul>
+        <!-- icon -->
+        <div class="navbar__ham">
+          <div class="navbar__icon"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+    <!-- Banner -->
+    <section id="banner">
+      <div class="container">
+        </div>
+        <div class="banner__desc">
+          <h4 class="banner__tag">Analysis of operations against 
+            organised crime conducted by 
+            EUROJUST</h4>
+          <h1 class="banner__title">
+            by Andrea Manzi
+          </h1>
+          <p class="banner__detail">
+            and Prof. Antonio Parbonetti
+          </p>
+          <object data="/uploads/TESI_PRES_AMANZI.pdf" type="application/pdf" width="100%" height="1250px">
+            <p>Unable to display PDF file. <a href="/uploads/TESI_PRES_AMANZI.pdf">Download</a> instead.</p>
+          </object>
+          <button onclick="viewFullScreen()">View Full Screen</button>
+          <script>
+          function viewFullScreen() {
+            // Open the PDF in a new tab and request full screen
+            window.open('/uploads/TESI_PRES_AMANZI.pdf', '_blank').focus();
+            }
+            </script>
+  </body>
+</html>
